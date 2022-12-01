@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+h1{
+font-family: 'Rubik Bubbles', cursive;
+}
+
+.navbar-custom {
+    background-color: white;
+}
+
+
+  
+  img {
+    width: 70%;
+  }
+
+  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #bf0d84 !important;
+}
+
+
+.bg-unc{
+
+  background-color: #7BAFD4;
+}
+.carolina{
+  display:flex;
+  justify-content: center;
+}
+
+
+.topborder{
+  z-index: 1;
+  position: fixed;
+  min-height: 60px;
+  width: 100%;
+  top:0;
+  background-color: #7BAFD4;
+  text-align: center;
+}
+
+.bottomborder{
+  background-color: #7BAFD4;
+  min-height: 60px;
+  position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+body {
+  padding-top: 70px;
+  padding-bottom: 70px ;
+}
+main{
+  padding-top: 10%;
+  padding-bottom: 15%;
+}
+input,
+.input-group {
+  max-width: 280px;
+}
+
+.theGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 5fr;
+  height: 70vh;
+}
+
+.select{
+  display: flex;
+  
+  grid-column: 2/3;
+  grid-row: 4/5;
+  padding-bottom: 20px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.namez{
+  display: flex;
+ 
+  
+  justify-content: center;
+  gap: 10px;
+  display: flex;
+  grid-column: 2/3;
+  grid-row: 3/4;
+ 
+  align-items: center;
+}
+
+.propic{
+  display: flex;
+  flex-direction: row;
+  
+  grid-column: 2/3;
+  grid-row: 1/2;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+.upload{
+  display: flex;
+  flex-direction: row;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.upload2{
+  display: flex;
+  flex-direction: row;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding-bottom: 20vh;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  
+}
+
+.bio{
+  display: flex;
+  min-height: 200px;
+  grid-column: 2/3;
+  grid-row: 5/6;
+  
+  justify-content: center;
+  gap: 10px;
+  
+}
+
+
+
+
+
+.mytext{
+  resize: none;
+  width:100%;
+  
+}
+
+.item{
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card{
+width: 80vw !important;
+}
