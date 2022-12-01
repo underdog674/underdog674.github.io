@@ -1,8 +1,8 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
-h1{
-font-family: 'Rubik Bubbles', cursive;
-}
+
+
+
+
 
 .navbar-custom {
     background-color: white;
@@ -50,6 +50,9 @@ font-family: 'Rubik Bubbles', cursive;
 body {
   padding-top: 70px;
   padding-bottom: 70px ;
+
+    font-family: 'Bebas Neue', cursive;
+
 }
 main{
   padding-top: 10%;
